@@ -1,0 +1,74 @@
+[
+    {
+        "title": "DSC 106 Project 2",
+        "year": 2025,
+        "image": "../images/dsc106project2Ratio.png",
+        "description": "Visualization on NYC crime"
+    },
+    {
+        "title": "NBA Lineup Visualizer",
+        "year": 2024,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Looked into NBA data"
+    },
+    {
+        "title": "Irwindale Speedway App",
+        "year": 2023,
+        "image": "https://www.sgvtribune.com/wp-content/uploads/2024/10/SGT-L-IRWIN-FOLLOW-0929-01.jpg?w=1024",
+        "description": "Created an app used by Irwindale Speedway"
+    },
+    {
+        "title": "Imessage Data",
+        "year": 2024,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Visualized Imessage data over the course of a year."
+    },
+    {
+        "title": "Iure quod quasi velit!",
+        "year": 2023,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Aperiam possimus rerum labore natus alias praesentium qui quaerat consequuntur quia! Dicta mollitia aliquid adipisci, similique autem ipsa voluptas quod eius nemo neque dolores nulla error obcaecati dolore nostrum deleniti."
+    },
+    {
+        "title": "Ratione est architecto aspernatur?",
+        "year": 2025,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Atque, veniam impedit officiis id nam iusto molestiae iure repellendus enim assumenda. Quae odit minima natus quam numquam. Ab eveniet ipsa excepturi repudiandae accusamus recusandae ex consequatur inventore soluta ratione."
+    },
+    {
+        "title": "Laborum amet tempore in?",
+        "year": 2025,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Fugit numquam ad neque, consequuntur sunt nisi cum laborum corrupti, saepe minus labore cupiditate architecto laboriosam? Placeat quaerat minima, sequi magnam deserunt quos debitis quia nemo, at aliquid iusto voluptatem?"
+    },
+    {
+        "title": "Labore similique temporibus non.",
+        "year": 2024,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Exercitationem, molestiae totam magnam quos aut est animi cupiditate vel sunt unde dolores ad doloremque quisquam fugit illum eveniet quam. Praesentium cum, expedita placeat provident doloribus nemo aspernatur rerum laudantium!"
+    },
+    {
+        "title": "Deserunt exercitationem consectetur dolorum!",
+        "year": 2023,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Adipisci ratione repellat magnam labore, necessitatibus, totam accusamus, libero earum sapiente quam ad minima rem laboriosam iusto commodi vitae velit numquam ut excepturi veniam. Repudiandae enim similique facilis eos doloribus."
+    },
+    {
+        "title": "Provident a voluptatum fugit.",
+        "year": 2025,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Illum quas non optio temporibus hic rem, consequatur itaque sapiente? Distinctio enim saepe maxime recusandae similique aspernatur nulla esse laudantium possimus, dolorum dolor quae doloribus odit consequuntur aliquid commodi iure."
+    },
+    {
+        "title": "Iste veniam excepturi fugiat!",
+        "year": 2020,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Dicta nobis laudantium error soluta impedit iusto nulla modi amet rerum suscipit fugit ut eos porro incidunt saepe vel, debitis aspernatur. Delectus harum aut sed recusandae reiciendis provident autem tempora."
+    },
+    {
+        "title": "Aliquid dicta dignissimos tempora!",
+        "year": 2021,
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Repellat delectus debitis cumque numquam iure quia, ullam, tenetur illo enim, sint tempore animi praesentium inventore ducimus cupiditate necessitatibus commodi porro voluptate voluptas! Id perspiciatis nesciunt facilis consectetur, debitis cupiditate!"
+    }
+]
