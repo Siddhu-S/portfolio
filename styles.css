@@ -126,6 +126,9 @@ dl.info dd {
   position: fixed;
   top: 1em;
   left: 1em;
+  box-shadow: 1pc;
+  border-radius: 0.5em;
+  padding: 1em;
 }
 
 circle {
@@ -136,4 +139,18 @@ circle {
 
 circle:hover {
   transform: scale(1.5);
+}
+
+dl.info {
+  transition-duration: 500ms;
+  transition-property: opacity, visibility;
+}
+
+dl.info[hidden]:not(:hover, :focus-within) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+circle.selected {
+  fill: #ff6b6b;
 }
