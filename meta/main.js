@@ -98,7 +98,13 @@ dots
   .attr('cx', (d) => xScale(d.datetime))
   .attr('cy', (d) => yScale(d.hourFrac))
   .attr('r', 5)
-  .attr('fill', 'steelblue');
+  .attr('fill', 'steelblue')
+  .on('mouseenter', (event, commit) => {
+    renderTooltipContent(commit);
+  })
+  .on('mouseleave', () => {
+    d3.select('#commit-tooltip').style('display', 'none');
+  });
 
   const margin = { top: 10, right: 10, bottom: 30, left: 20 };
   const usableArea = {
@@ -136,7 +142,21 @@ gridlines.call(d3.axisLeft(yScale).tickFormat('').tickSize(-usableArea.width));
    .call(yAxis);
  }
 
+function renderTooltipContent(commit) {
+  const link = document.getElementById('commit-link');
+  const date = document.getElementById('commit-date');
+
+  if (Object.keys(commit).length === 0) return;
+
+  link.href = commit.url;
+  link.textContent = commit.id;
+  date.textContent = commit.datetime?.toLocaleString('en', {
+    dateStyle: 'full',
+  });
+}
+
 let data = await loadData();
 let commits = processCommits(data);
 renderCommitInfo(data, commits);
 renderScatterPlot(data, commits);
+
