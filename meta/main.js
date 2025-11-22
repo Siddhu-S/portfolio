@@ -80,7 +80,7 @@ function createBrushSelector(svg) {
   svg.call(d3.brush());
   svg.selectAll('.dots, .overlay ~ *').raise();
   svg.call(d3.brush().on('start brush end', brushed));
-}
+} 
 
 function renderLanguageBreakdown(selection) {
   const selectedCommits = selection
@@ -254,8 +254,34 @@ function renderSelectionCount(selection) {
   return selectedCommits;
 }
 
+function onTimeSliderChange() {
+  const slider = document.getElementById('commit-progress');
+  commitProgress = Number(slider.value);
+
+  commitMaxTime = timeScale.invert(commitProgress);
+
+  const display = document.getElementById('commit-time');
+
+  display.textContent = commitMaxTime.toLocaleString('en', {
+    dateStyle: "long",
+    timeStyle: "short",
+  });
+
+}
+
 let data = await loadData();
 let commits = processCommits(data);
 renderCommitInfo(data, commits);
 renderScatterPlot(data, commits);
+
+let commitProgress = 100;
+let timeScale = d3
+  .scaleTime()
+  .domain([
+    d3.min(commits, (d) => d.datetime),
+    d3.max(commits, (d) => d.datetime),
+  ])
+  .range([0, 100]);
+let commitMaxTime = timeScale.invert(commitProgress);
+
 

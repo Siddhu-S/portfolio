@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meta</title>
-    
+     
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
@@ -12,6 +12,21 @@
 
     <h2>Commits by time of day</h2>
     <div id="chart"></div>
+    <div id="time-filter">
+        <label>
+            Show commits until:
+            <input
+                id="commit-progress"
+                type="range"
+                min="0"
+                max="100"
+                value="100"
+            />
+        </label>
+
+        <time id="commit-time"></time>
+    </div>
+
     <div id="stats"></div>
 
     <dl id="commit-tooltip" class="info tooltip" hidden>
